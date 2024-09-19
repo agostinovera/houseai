@@ -3,19 +3,29 @@ body{
     background-size: 100%;
     text-align: center;
     font-family: "Georama", sans-serif;
-    background-color:antiquewhite
-}
+   
 
-#ilu{
-    width: 100%;
 }
-header{
-    background-color: rgb(252, 247, 247);
-    text-align: center;
+#index{
+    background-size: 100%;
+    background-image:linear-gradient(to bottom left,rgb(244, 245, 244) , rgb(134, 248, 134) , rgb(0, 248, 0));
 }
 #display{
     text-align: center;
     font-size: 30px;
+    background-size: 100%;
+    background-color: rgb(255, 255, 255);
+    
+   
+}
+#ilu{
+    width: 60%;
+}
+
+header{
+    background-size:100% ;
+    background-position: center;
+    text-align: center;
 }
 nav a{
 
@@ -29,8 +39,12 @@ nav a{
 }
 nav a:hover{
     color: rgb(218, 226, 215);
-    background-color: rgb(13, 182, 27);
+    background-color: rgb(75, 255, 90);
 }
 nav{
     margin: 20px;
+}
+#filtrado{
+    background-size: 100%;
+    background-image:linear-gradient(to bottom left,rgb(244, 245, 244) , rgb(134, 248, 134) , rgb(0, 248, 0));
 }
