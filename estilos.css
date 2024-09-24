@@ -1,50 +1,95 @@
-@import url('https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100..900;1,100..900&display=swap');
-body{
-    background-size: 100%;
-    text-align: center;
-    font-family: "Georama", sans-serif;
-   
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@100..900&display=swap');
 
-}
-#index{
-    background-size: 100%;
-    background-image:linear-gradient(to bottom left,rgb(244, 245, 244) , rgb(134, 248, 134) , rgb(0, 248, 0));
-}
-#display{
+body {
+    font-family: "Georama", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
     text-align: center;
-    font-size: 30px;
-    background-size: 100%;
-    background-color: rgb(255, 255, 255);
-    
-   
 }
-#ilu{
+
+#index {
+    background-image: url(imagenes/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#display {
+    background-image: url(imagenes/backdisplay5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 30px;
+    text-align: center;
+}
+
+#ilu {
     width: 60%;
 }
 
-header{
-    background-size:100% ;
-    background-position: center;
+header {
+    padding: 1rem;
     text-align: center;
 }
-nav a{
 
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+nav {
+    margin: 20px;
+}
+
+nav a {
     text-decoration: none;
     background-color: rgb(225, 235, 225);
     color: rgb(0, 0, 0);
-    margin:20px;
+    margin: 20px;
     padding: 10px;
     border-radius: 7px;
     border: 2px solid black;
+    transition: background-color 0.3s, color 0.3s;
 }
-nav a:hover{
+
+nav a:hover {
     color: rgb(218, 226, 215);
-    background-color: rgb(75, 255, 90);
+    background-color: rgb(50, 241, 66);
 }
-nav{
-    margin: 20px;
+
+#filtrado {
+    background-image: linear-gradient(to bottom left, rgb(77, 165, 42), rgb(123, 255, 156), rgb(88, 241, 88));
+    background-size: cover;
 }
-#filtrado{
-    background-size: 100%;
-    background-image:linear-gradient(to bottom left,rgb(244, 245, 244) , rgb(134, 248, 134) , rgb(0, 248, 0));
+
+#header2 {
+    text-align: center;
+}
+
+.ia {
+    
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    color: rgb(0, 0, 0);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+#main{
+    color: aliceblue;
+    font-size: xx-large;
+}
+#general{
+    background-image: linear-gradient(to bottom left, rgb(77, 165, 42), rgb(123, 255, 156), rgb(88, 241, 88));
+}
+#imagenes{
+    background-image: linear-gradient(to bottom left, rgb(77, 165, 42), rgb(123, 255, 156), rgb(88, 241, 88));
+}
+#paraphraser{
+    background-image: linear-gradient(to bottom left, rgb(77, 165, 42), rgb(123, 255, 156), rgb(88, 241, 88));
+}
+#productividad{
+    background-image: linear-gradient(to bottom left, rgb(77, 165, 42), rgb(123, 255, 156), rgb(88, 241, 88));
 }
