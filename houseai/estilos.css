@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@100..900&display=swap');
+
+body {
+    font-family: "Georama", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+#index {
+    background-image: url(imagenes/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#display {
+    background-image: url(imagenes/backdisplay5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 30px;
+    text-align: center;
+}
+
+#ilu {
+    width: 60%;
+}
+
+header {
+    padding: 1rem;
+    text-align: center;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+nav {
+    margin: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    background-color: rgb(225, 235, 225);
+    color: rgb(0, 0, 0);
+    margin: 20px;
+    padding: 10px;
+    border-radius: 7px;
+    border: 2px solid black;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    color: rgb(218, 226, 215);
+    background-color: rgb(50, 241, 66);
+}
+
+#filtrado {
+    background-image: linear-gradient(to bottom left, rgb(77, 165, 42), rgb(123, 255, 156), rgb(88, 241, 88));
+    background-size: cover;
+}
+
+#header2 {
+    text-align: center;
+}
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    color: rgb(0, 0, 0);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+#main{
+    color: aliceblue;
+    font-size: xx-large;
+}
+#general{
+    background-image: linear-gradient(to bottom left, rgb(77, 165, 42), rgb(123, 255, 156), rgb(88, 241, 88));
+}
+#imagenes{
+    background-image: linear-gradient(to bottom left, rgb(77, 165, 42), rgb(123, 255, 156), rgb(88, 241, 88));
+}
+#paraphraser{
+    background-image: linear-gradient(to bottom left, rgb(77, 165, 42), rgb(123, 255, 156), rgb(88, 241, 88));
+}
+#productividad{
+    background-image: linear-gradient(to bottom left, rgb(77, 165, 42), rgb(123, 255, 156), rgb(88, 241, 88));
+}
+#robot{
+    margin-left: 590px;
+}
+#robot2{
+    margin-right:560px;
+}
+
+@media (max-width:700px){
+    nav a{
+        display: inline;
+    }
+}
