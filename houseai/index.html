@@ -8,24 +8,60 @@
     <meta name="author" content="Agostino Vera">
     <link rel="shortcut icon" href="imagenes/backdisplay.jpg" type="image/x-icon">
     <link href="estilos.css" rel="stylesheet" type="text/css">
+    <script src="javascript.js"></script>
+
     <title>HouseAI</title>
+    <style>
+
+        /* Estilos responsivos */
+        @media only screen and (max-width: 768px) {
+            .hero img {
+                width: 90%;
+            }
+
+            .hero nav a {
+                padding: 12px 24px;
+                font-size: 1em;
+            }
+        }
+
+        @media only screen and (max-width: 480px) {
+            header img {
+                width: 100px;
+            }
+
+            .hero img {
+                width: 100%;
+            }
+
+            footer img {
+                width: 80px;
+            }
+
+            footer p {
+                font-size: 0.8em;
+            }
+        }
+    </style>
 </head>
 <body id="index"> 
     <header>
         <img src="imagenes/HouseAI.png" alt="Logo de HouseAI">
     </header>
+    
     <main>
         <div class="hero">
-           <br> <br> <img src="imagenes/header.png" alt="Imagen de encabezado">
-            <img src="imagenes/Subtitle.png" alt="Subtítulo"><br> <br>
+            <img src="imagenes/header.png" alt="Imagen de encabezado">
+            <img src="imagenes/Subtitle.png" alt="Subtítulo">
             <nav>
                 <a href="display.html">START NOW</a>
             </nav>
         </div>
     </main>
+
     <footer>
-        <img id="robot" src="imagenes/png-transparent-first-robotics-competition-chatbot-artificial-intelligence-robot-electronics-desktop-wallpaper-optical-instrument-removebg-preview.png">
-        <p>&copy; 2024 HouseAI. Todos los derechos reservados.</p><br> <br>
+        <img id="robot" src="imagenes/png-transparent-first-robotics-competition-chatbot-artificial-intelligence-robot-electronics-desktop-wallpaper-optical-instrument-removebg-preview.png" alt="Robot">
+        <p>&copy; 2024 HouseAI. Todos los derechos reservados.</p>
     </footer>
 </body>
 </html>

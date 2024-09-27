@@ -15,7 +15,7 @@ body {
 }
 
 #display {
-    background-image: url(imagenes/backdisplay5.jpg);
+    background-image: linear-gradient(to bottom left, rgb(77, 165, 42), rgb(123, 255, 156), rgb(88, 241, 88));
     background-size: cover;
     background-repeat: no-repeat;
     font-size: 30px;
@@ -91,9 +91,7 @@ footer {
 #robot{
     margin-left: 790px;
 }
-#robot2{
-    margin-right:560px;
-}
+
 
 @media (max-width:700px){
     nav a{

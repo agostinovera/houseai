@@ -3,11 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Paraphraser</title>
+    <title>Paraphraser - Herramientas de Reescritura de Texto</title>
     <link rel="shortcut icon" href="../imagenes/backdisplay2.jpg" type="image/x-icon">
     <link href="../estilos.css" rel="stylesheet" type="text/css">
+    <script src="javascript.js"></script>
+
+    <style>
+        body {
+            font-family: Aeial, sans-serif;
+            background-image: linear-gradient(to bottom left, rgb(77, 165, 42), rgb(123, 255, 156), rgb(88, 241, 88));
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            
+        }
+        header {
+            padding: 10px;
+            text-align: center;
+        }
+        header img {
+            width: 120px;
+            height: auto;
+        }
+        .card {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+        .column1 {
+            margin: 15px;
+        }
+        .column1 img {
+            width: 200px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .column1 img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        p {
+            margin: 10px 0;
+        }
+        @media (max-width: 768px) {
+            .column1 img {
+                width: 150px;
+            }
+        }
+    </style>
 </head>
-<body id="paraphraser"> 
+<body id="paraphraser">
     <header>
         <a href="../display.html">
             <img src="../imagenes/HouseAI.png" alt="Logo de HouseAI">
@@ -19,12 +67,12 @@
             <div class="column1"> 
                 <p>
                     <a href="https://Quillbot.com/" target="_blank" rel="noopener noreferrer">
-                        <img class="ia" src="../imagenes/quillbot-removebg-preview.png" alt="Quillbot - Reescribir texto con IA"> 
+                        <img class="ia" src="../imagenes/quillbot-removebg-preview.png" alt="Quillbot - Herramienta de reescritura de texto con IA">
                     </a>
                 </p>
                 <p>
                     <a href="https://www.paraphraser.io/" target="_blank" rel="noopener noreferrer">
-                        <img class="ia" src="../imagenes/13-removebg-preview (1).png" alt="Paraphraser.io - Reescribir texto con IA"> 
+                        <img class="ia" src="../imagenes/13-removebg-preview (1).png" alt="Paraphraser.io - Reescribir texto automáticamente con IA">
                     </a>
                 </p>
             </div>

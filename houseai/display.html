@@ -2,12 +2,90 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="description" content="Página de herramientas de IA con diferentes opciones de selección y navegación.">
     <link rel="shortcut icon" href="imagenes/backdisplay2.jpg" type="image/x-icon">
     <link href="estilos.css" rel="stylesheet" type="text/css">
     <title>Herramientas de IA</title>
     <script src="javascript.js"></script>
+    <style>
+        
+        body {
+            font-family: "Georama", sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: linear-gradient(to bottom left, rgb(77, 165, 42), rgb(123, 255, 156), rgb(88, 241, 88));
+        }
+
+        header {
+            background-image: linear-gradient(to bottom left, rgb(77, 165, 42), rgb(123, 255, 156), rgb(88, 241, 88));
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header img {
+            width: 200px;
+            height: auto;
+        }
+        main {
+            font-weight: 500;
+            padding: 0,5px;
+            text-align: center;
+            margin: 3px;
+            border-radius: 30px;
+        }
+
+        main #main {
+            text-align: center;
+            font-size: 1,9em;
+            color: #000000;
+            padding: 1%;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 10px;
+        }
+
+        footer nav a {
+            background-color: white;
+            text-decoration: none;
+            padding: 10px;
+            display: block;
+            color: #000000;
+            font-weight: 650;
+        }
+
+        footer nav a:hover {
+            font-size: xx-large;
+            background-color: #1cbd24;
+        }
+
+        footer img {
+            width: 350px;
+            height: auto;
+            margin-top: 10px;
+        }
+        @media only screen and (max-width: 600px) {
+            header {
+                padding: 15px;
+            }
+
+            main {
+                background-image: #3bf044;
+                padding: 15px;
+                margin: 5px;
+            }
+
+            footer nav a {
+                padding: 8px;
+            }
+
+            footer img {
+                width: 80px;
+            }
+        }
+    </style>
 </head>
 <body id="display" class="displayy">
     <header id="filtrado">
@@ -15,16 +93,11 @@
             <img src="imagenes/HouseAI.png" alt="Logotipo de House AI">
         </a>
         <br>
-        <fieldset>
-            <legend>Caja de Herramientas</legend>
-            <label for="IAs">Selecciona una herramienta de IA:</label>
-        </fieldset>
     </header>
 
     <main>
-         <br>
         <div id="main">
-        Utiliza todo tipo de herramientas web en determinadas especializaciones, para maximizar tu eficiencia y tus resultado.¡Todo potenciado con IA!
+           <strong>Tu equipo de trabajo con Herramientas web ¡Todo potenciado por IA!</strong>
         </div>
         <section class="listado-displayy"></section>
     </main>
@@ -37,7 +110,7 @@
             <a href="Categorías/productividad.html">Productividad</a>
         </nav>
         <br>
-        <img id="robot2" src="imagenes/png-transparent-artificial-intelligence-robotics-machine-learning-artificial-inteligence-microphone-computer-monochrome-thumbnail-removebg-preview.png">
+        <img id="robot2" src="imagenes/png-transparent-robot-robot-robot-clipart-removebg-preview.png" alt="Robot">
     </footer>
 </body>
 </html>

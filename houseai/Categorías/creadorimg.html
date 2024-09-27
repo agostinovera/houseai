@@ -1,39 +1,96 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="shortcut icon" href="../imagenes/backdisplay2.jpg" type="image/x-icon">
-        <link href="../estilos.css " rel="stylesheet" type="text/css">
-        <meta charset="UTF-8">
-        <title>  imagenes y video </title>
-    </head>
-    <body id="imagenes"> 
-        <header>
-            <a href="../display.html">
-            <img src="../imagenes/HouseAI.png">
-            </a>
-        </header>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página de herramientas de IA con enlaces a generadores de imágenes como DALL-E, MidJourney y más.">
+    <title>Imágenes y Video con IA</title>
+    <link rel="shortcut icon" href="../imagenes/backdisplay2.jpg" type="image/x-icon">
+    <link href="../estilos.css" rel="stylesheet" type="text/css">
+    <script src="javascript.js"></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            padding: 10px;
+            text-align: center;
+        }
+        header img {
+            width: 120px;
+            height: auto;
+        }
+        .card {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+        .column1 {
+            margin: 15px;
+        }
+        .column1 img {
+            width: 200px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .column1 img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        p {
+            margin: 10px 0;
+        }
+        @media (max-width: 768px) {
+            .column1 img {
+                width: 150px;
+            }
+        }
+    </style>
+</head>
+<body id="imagenes">
+    <header>
+        <a href="../display.html">
+            <img src="../imagenes/HouseAI.png" alt="Logotipo de House AI">
+        </a>
+    </header>
+
+    <main>
+        <section class="card">
+            <div class="column1">
+                <p>
+                    <a href="https://openai.com/index/dall-e-2/" target="_blank">
+                        <img class="ia" src="../imagenes/dalle3-removebg-preview.png" alt="DALL-E, herramienta de generación de imágenes por IA">
+                    </a>
+                </p>
+                <p>
+                    <a href="https://www.midjourney.com/home" target="_blank">
+                        <img class="ia" src="../imagenes/midjourney-removebg-preview.png" alt="MidJourney, herramienta de creación de imágenes con IA">
+                    </a>
+                </p>
+                <p>
+                    <a href="https://www.artbreeder.com/" target="_blank">
+                        <img class="ia" src="../imagenes/artbreeder-removebg-preview.png" alt="Artbreeder, creador de imágenes colaborativo">
+                    </a>
+                </p>
+                <p>
+                    <a href="https://stablediffusionweb.com/" target="_blank">
+                        <img class="ia" src="../imagenes/stable-removebg-preview.png" alt="Stable Diffusion, generador de imágenes por IA">
+                    </a>
+                </p>
+            </div>
+        </section>
     </main>
-        <div class="card">
-        <div class="column1"> 
-            <p>
-                <a href="https://openai.com/index/dall-e-2/">
-                <img class="ia" src="../imagenes/dalle3-removebg-preview.png" alt= "ia"> 
-                </a>
-            </p>
-                <a href="https://www.midjourney.com/home">
-                <img class="ia" src="../imagenes/midjourney-removebg-preview.png" alt= "ia"> 
-                </a>
-            </p>
-            <p>
-                <a href="https://www.artbreeder.com/">
-                <img class="ia" src="../imagenes/artbreeder-removebg-preview.png" alt= "ia">
-                </a>
-            </p>
-            <p>
-                <a href="https://stablediffusionweb.com/">
-                <img class="ia" src="../imagenes/stable-removebg-preview.png" alt= "ia">
-                </a>
-            </p>
-        </div>
-    </body>
+
+    <footer>
+        <p>&copy; 2024 House AI. Todos los derechos reservados.</p>
+    </footer>
+</body>
 </html>
